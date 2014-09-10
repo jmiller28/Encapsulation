@@ -6,7 +6,7 @@ import java.util.Date;
  *
  * @author jmiller
  */
-public class NewEmployee extends Employee {
+public class NewEmployee implements Employee {
 
     private String firstName;
     private String lastName;

@@ -9,44 +9,44 @@ import java.util.Date;
  * @author Jim Lombardo, WCTC Instructor
  * @version 1.01
  */
-public abstract class Employee {
+public interface Employee {
 
-    public abstract void completeHiringProcess();
+    public void completeHiringProcess();
 
-    public abstract String getFirstName();
+    public String getFirstName();
 
-    public abstract void setFirstName(String firstName);
+    public void setFirstName(String firstName);
 
-    public abstract String getLastName();
+    public String getLastName();
 
-    public abstract void setLastName(String lastName);
+    public void setLastName(String lastName);
 
-    public abstract String getSsn();
+    public String getSsn();
 
-    public abstract void setSsn(String ssn);
+    public void setSsn(String ssn);
 
-    public abstract Date getBirthDate();
-    
-    public abstract void setBirthDate(Date birthDate);
-    
-    public abstract boolean isMetWithHr();
-            
-    public abstract void setMetWithHr(boolean metWithHr);
-            
-    public abstract boolean isMetDeptStaff();
-    
-    public abstract void setMetDeptStaff(boolean metDeptStaff);
+    public Date getBirthDate();
 
-    public abstract boolean isReviewedDeptPolicies();
+    public void setBirthDate(Date birthDate);
 
-    public abstract void setReviewedDeptPolicies(boolean reviewedDeptPolicies);
+    public boolean isMetWithHr();
 
-    public abstract boolean isMovedIn();
+    public void setMetWithHr(boolean metWithHr);
 
-    public abstract void setMovedIn(boolean movedIn);
+    public boolean isMetDeptStaff();
 
-    public abstract String getCubeId();
+    public void setMetDeptStaff(boolean metDeptStaff);
 
-    public abstract void setCubeId(String cubeId);
-    
+    public boolean isReviewedDeptPolicies();
+
+    public void setReviewedDeptPolicies(boolean reviewedDeptPolicies);
+
+    public boolean isMovedIn();
+
+    public void setMovedIn(boolean movedIn);
+
+    public String getCubeId();
+
+    public void setCubeId(String cubeId);
+
 }
